@@ -1,0 +1,57 @@
+#box{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 400px;
+    min-height: 400px;
+    text-wrap: wrap;
+    overflow-wrap: normal;
+    border: 5px solid brown;
+    background-color: hsla(4, 93%, 84%, 0.517);
+    border-radius: 25px;
+}
+input{
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+ol{
+    /* padding-left: 20px; */
+    text-wrap: wrap;
+    padding-inline-end: 30px;
+    overflow-wrap:break-word;
+
+}
+li{
+    text-align: left;
+    text-wrap: wrap;
+    line-height: 2;
+}
+p{
+    height: 100px;
+    width: 200px;
+}
+.btn{
+    line-height: 1;
+    padding: .275rem .75rem;
+}
+.btn-success{
+    color: #fff;
+    background-color: hsl(152 69% 42% / 1);
+    border-color: #198754;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+#Add{
+    border-radius: 30px;
+    padding-bottom: 7px;
+}
+#reset{
+    border-radius: 30px;
+    padding-bottom: 7px;
+}
