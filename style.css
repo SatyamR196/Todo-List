@@ -1,3 +1,8 @@
+body{
+    background-image: url(assets/vecteezy_flower-and-mountain-landscape-background_11457898.jpg);
+    background-size: cover;
+    background-position: 0px -175px;
+}
 #box{
     margin-top: 30px;
     margin-left: auto;
@@ -7,14 +12,18 @@
     min-height: 400px;
     text-wrap: wrap;
     overflow-wrap: normal;
-    border: 5px solid brown;
-    background-color: hsla(4, 93%, 84%, 0.517);
+    border: 1px solid #faecec;
+    background-color: hsl(4deg 93% 84% / 32%);
+    backdrop-filter: blur(2.5px);
     border-radius: 25px;
 }
 input{
     border-radius: 15px;
     padding-left: 10px;
     padding-right: 8px;
+    backdrop-filter: blur(10px);
+    background-color: hsl(0deg 0% 100% / 40%);
+    border: none;
 }
 ol{
     /* padding-left: 20px; */
@@ -44,6 +53,7 @@ p{
 #menu{
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
     gap: 8px;
     margin-bottom: 5px;
 }
